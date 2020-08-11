@@ -70,7 +70,7 @@ void offset(tm*tmptr, int houroffset, int minoffset, string utclabel)
 
 void help()
 {
-    cout << "This is a very simple program that displays the time for each UTC offset in use at the time the program was written.\nTo use the program to determine the time for a given city or region, you will need to know which offsets are used by that city/region, including during daylight savings time (if applicable); these can be found on Wikipedia.\nHere are some examples:\n";
+    cout << "This is a simple program that displays the time for each UTC offset in use at the time the program was written.\nTo use the program to determine the time for a given city or region, you will need to know which offsets are used by that city/region, including during daylight savings time (if applicable); these can be found on Wikipedia.\nHere are some examples:\n";
     cout << "Japan: always UTC+9\n";
     cout << "U.S. Eastern Time Zone: UTC-5 outside of daylight savings time; UTC-4 during daylight savings time\n";
     cout << "India: always UTC+5:30\n.";
