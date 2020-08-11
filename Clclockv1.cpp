@@ -75,6 +75,7 @@ void help()
     cout << "U.S. Eastern Time Zone: UTC-5 outside of daylight savings time; UTC-4 during daylight savings time\n";
     cout << "India: always UTC+5:30\n.";
     cout << "Note that these times do not update automatically; therefore, to update the times, you will need to exit and restart the program.\n";
+    cout << "Originally published by Kenneth Burchfiel on 2020-8-10 (US EDT) under the MIT license.\n";
 
 
 }
